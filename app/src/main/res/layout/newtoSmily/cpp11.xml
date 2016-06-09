@@ -1,0 +1,520 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        >
+		<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question110"
+            android:textSize="30dp"
+            android:text=" How many types of linkage are there in c++?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup110"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question110"
+            android:layout_below="@+id/question110">
+
+            <RadioButton
+                android:id="@+id/radio1100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='3'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1101"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='2'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1102"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='1'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1103"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='0'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res110"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question111"
+            android:textSize="30dp"
+            android:text=" The function used to define the task assigned to an operator is ?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question111"
+            android:layout_below="@+id/question111">
+
+            <RadioButton
+                android:id="@+id/radio1110"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Virtual function'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Static function'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1112"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Operator function'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1113"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Friend function'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question112"
+            android:textSize="30dp"
+            android:text="Which operators can not be overloaded ?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup112"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question112"
+            android:layout_below="@+id/question112">
+
+            <RadioButton
+                android:id="@+id/radio1120"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Binary operator'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1121"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Ternary operator'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1122"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Unary operator'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1123"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='All can be overloaded'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res112"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question133"
+            android:textSize="30dp"
+            android:text="All can be overloaded"/>
+        <RadioGroup
+            android:id="@+id/radioGroup113"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question133"
+            android:layout_below="@+id/question133">
+
+            <RadioButton
+                android:id="@+id/radio1130"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Fundamental data type'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1131"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Primitive data type'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1132"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Desired data type'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1133"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Not defined'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res113"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question114"
+            android:textSize="30dp"
+            android:text="Explicit call to a constructor means ?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup114"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question114"
+            android:layout_below="@+id/question114">
+
+            <RadioButton
+                android:id="@+id/radio1140"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Not providing the construction name at all'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1141"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Providing the constructor name implicitly to invoke it'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1142"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Is the shorthand method'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1143"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Providing the constructor name explicitly to invoke it'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res114"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+		  <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question115"
+            android:textSize="30dp"
+            android:text=" When one class inherits from the base class, then the original class is called ?"
+/>
+        <RadioGroup
+            android:id="@+id/radioGroup115"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question115"
+            android:layout_below="@+id/question115">
+
+            <RadioButton
+                android:id="@+id/radio1150"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='base class'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1151"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='derived class'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1152"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='sub class'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1153"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='basic class'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res115"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question116"
+            android:textSize="30dp"
+            android:text="Operator overloading is ?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup116"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question116"
+            android:layout_below="@+id/question116">
+
+            <RadioButton
+                android:id="@+id/radio1160"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='giving new meaning to existing c++ operators'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1161"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='making c++ operators work with objects'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1162"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='giving c++ operators more than they can handle.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1163"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='making new c++ operators'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res116"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question117"
+            android:textSize="30dp"
+            android:text="A virtual base class ?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup117"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question117"
+            android:layout_below="@+id/question137">
+
+            <RadioButton
+                android:id="@+id/radio1170"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='is qualified as virtual in base class definition.'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1171"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='do not qualified as virtual in base class definition..'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1172"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='allows to inherit more than one copy of the base class members.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1173"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='strict the path of inheritance.'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res117"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question118"
+            android:textSize="30dp"
+            android:text="The private data members of a class are accessible ?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup118"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question118"
+            android:layout_below="@+id/question118">
+
+            <RadioButton
+                android:id="@+id/radio1180"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Directly to objects of that class'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1181"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='To any function defined outside a class.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1182"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Only to the member functions'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1183"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Only using keyword static'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res118"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+		<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question119"
+            android:textSize="30dp"
+            android:text=" To use internal linkage we have to use which keyword?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup119"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question119"
+            android:layout_below="@+id/question119">
+
+            <RadioButton
+                android:id="@+id/radio1190"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='extern'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1191"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Static '
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1192"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='static and extern'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1193"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='none'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res119"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+			
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/radioGroup1110"
+            android:layout_below="@+id/radioGroup1110"
+            android:layout_marginTop="22dp"
+            android:text="Submit"
+
+            />
+        <EditText
+            android:id="@+id/score11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+</ScrollView>

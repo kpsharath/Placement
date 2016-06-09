@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/bg3"
+                  android:orientation="vertical">
+        <TextView
+            android:id="@+id/news_feed_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="DOs and DON'Ts"
+            android:layout_centerVertical="true"
+            android:textColor="#222"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/news_feed_1_image"
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:gravity="left"
+            android:layout_centerVertical="true"
+
+            android:src="@drawable/dos_and_donts"
+
+
+            />
+    </LinearLayout>
+</ScrollView>

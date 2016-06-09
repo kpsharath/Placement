@@ -1,0 +1,523 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:background="@drawable/bg1"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        >
+		 <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question80"
+            android:textSize="30dp"
+            android:text="1) If method have same name as class name and method don’t have any return type then it is known as"/>
+        <RadioGroup
+            android:id="@+id/radioGroup80"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question80"
+            android:layout_below="@+id/question80">
+
+            <RadioButton
+                android:id="@+id/radio800"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='destructor'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio801"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='object'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio802"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='variable'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio803"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='constructor.'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res80"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question81"
+            android:textSize="30dp"
+            android:text="2) Suppose that you would like to create an instance of a new Map that has an iteration order that is the same as the iteration order of an existing instance of a Map. Which concrete implementation of the Map interface should be used for the new instance?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup81"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question81"
+            android:layout_below="@+id/question81">
+
+            <RadioButton
+                android:id="@+id/radio810"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='TreeMap'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio811"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='HashMap'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio812"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='LinkedHashMap'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio813"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='The answer depends on the implementation of the existing instance.'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res81"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question82"
+            android:textSize="30dp"
+            android:text="3) Which collection class allows you to grow or shrink its size and provides
+            indexed access to its elements, but whose methods are not synchronized?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup82"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question82"
+            android:layout_below="@+id/question82">
+
+            <RadioButton
+                android:id="@+id/radio820"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='java.util.HashSet'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio821"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='java.util.LinkedHashSet'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio822"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='java.util.List'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio823"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='java.util.ArrayList'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res82"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question83"
+            android:textSize="30dp"
+            android:text="4) You need to store elements in a collection that guarantees
+             that no duplicates are stored and all elements can be accessed in natural order. Which interface provides that capability?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup83"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question83"
+            android:layout_below="@+id/question83">
+
+            <RadioButton
+                android:id="@+id/radio830"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='java.util.Map'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio831"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='java.util.Set'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio832"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='java.util.List'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio833"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='java.util.Collection'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res83"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question84"
+            android:textSize="30dp"
+            android:text="5) Which interface does java.util.Hashtable implement?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup84"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question84"
+            android:layout_below="@+id/question84">
+
+            <RadioButton
+                android:id="@+id/radio840"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Java.util.Map'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio841"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Java.util.List'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio842"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Java.util.HashTable'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio843"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='None of the above'
+                android:textSize="20dp"/>
+
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res84"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+			
+		<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question85"
+            android:textSize="30dp"
+            android:text="6) Methods that have same name, but different Parameter list and different definition known as"/>
+        <RadioGroup
+            android:id="@+id/radioGroup85"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question85"
+            android:layout_below="@+id/question85">
+
+            <RadioButton
+                android:id="@+id/radio850"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Overriding'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio851"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Constructor'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio852"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Overloading'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio853"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='none of these.'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res85"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question86"
+            android:textSize="30dp"
+            android:text="7) Inheritance means"/>
+        <RadioGroup
+            android:id="@+id/radioGroup86"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question86"
+            android:layout_below="@+id/question86">
+
+            <RadioButton
+                android:id="@+id/radio860"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Sub class extends super class'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio861"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Sub class extends Base class'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio862"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Sub class create object of super class'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio863"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='All of the above'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res86"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question87"
+            android:textSize="30dp"
+            android:text="8) Which type of inheritance is not supported by java"/>
+        <RadioGroup
+            android:id="@+id/radioGroup87"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question87"
+            android:layout_below="@+id/question87">
+
+            <RadioButton
+                android:id="@+id/radio870"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Single'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio871"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Multiple'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio872"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Mulilevel'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio873"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Hirarchical'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res87"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question88"
+            android:textSize="30dp"
+            android:text="9) Interfaces helps in which type of inheritance"/>
+        <RadioGroup
+            android:id="@+id/radioGroup88"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question88"
+            android:layout_below="@+id/question88">
+
+            <RadioButton
+                android:id="@+id/radio880"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Multiple inheritance'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio881"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Multilevel inheritance'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio882"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Hierarchical inheritance'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio883"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='None of above'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res88"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+		
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question89"
+            android:textSize="30dp"
+            android:text="10) Which method of the Applet class displays the result of applet code on screen"/>
+        <RadioGroup
+            android:id="@+id/radioGroup89"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question89"
+            android:layout_below="@+id/question89">
+
+            <RadioButton
+                android:id="@+id/radio890"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='run() method'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio891"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='paint() method'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio892"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='drawString() method'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio893"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='main() method'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res89"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/radioGroup810"
+            android:layout_below="@+id/radioGroup810"
+            android:layout_marginTop="22dp"
+            android:text="Submit"
+
+            />
+        <EditText
+            android:id="@+id/score8"
+            android:singleLine="true"
+            android:textSize="30dp"
+            android:layout_below="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

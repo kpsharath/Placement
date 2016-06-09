@@ -1,0 +1,549 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@drawable/bg1"
+    android:layout_height="fill_parent">
+    <!-- Here you put the rest of your current view-->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                  android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+                  android:paddingRight="@dimen/activity_horizontal_margin"
+                  android:paddingTop="@dimen/activity_vertical_margin"
+
+
+                  android:orientation="vertical"
+                  android:paddingBottom="@dimen/activity_vertical_margin"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question20"
+            android:textSize="30dp"
+            android:text="1) The banker's discount on a certain sum due 2 years hence is 11/10 of the true discount.
+        The rate percent is:"/>
+        <RadioGroup
+            android:id="@+id/radioGroup20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question23"
+            android:layout_below="@+id/question23">
+
+            <RadioButton
+                android:id="@+id/radio201"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='11%'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio202"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='10%'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio203"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='5%'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio204"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='5.5%'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question21"
+            android:textSize="30dp"
+            android:text="2) A,B,C subscribe Rs. 50,000 for a business. A subscribe Rs. 4000 more than B
+        and B Rs. 5000 more than C. Out of a total profit of Rs. 35000, Find A' share?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question21"
+            android:layout_below="@+id/question21">
+
+            <RadioButton
+                android:id="@+id/radio211"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Rs. 8400'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio212"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='RS. 11900'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio213"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='RS. 13600'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio214"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='RS. 14700'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question22"
+            android:textSize="30dp"
+            android:text="3) Simplify (72-5) to the power of square root of 10000"/>
+        <RadioGroup
+            android:id="@+id/radioGroup22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question22"
+            android:layout_below="@+id/question22">
+
+            <RadioButton
+                android:id="@+id/radio221"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='6800'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio222"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='7000'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio223"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='6700'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio224"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='7720'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question23"
+            android:textSize="30dp"
+            android:text="4) A man took loan from a bank at the rate of 12% simple interest per annum. After 3 years he had to pay"/>
+        <RadioGroup
+            android:id="@+id/radioGroup23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question23"
+            android:layout_below="@+id/question23">
+
+            <RadioButton
+                android:id="@+id/radio231"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Rs. 2000'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio232"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='10000'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio233"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='15000'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio234"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='20000'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question24"
+            android:textSize="30dp"
+            android:text="5) The true discount on a bill of Rs. 540 is 90. The bankers
+        discount is:"/>
+        <RadioGroup
+            android:id="@+id/radioGroup24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question4"
+            android:layout_below="@+id/question4">
+
+            <RadioButton
+                android:id="@+id/radio241"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Rs. 60'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio242"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='108'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio243"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='110'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio244"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='112'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question25"
+            android:textSize="30dp"
+            android:text="6) A is two years older than B who is twice as old as C. If the
+        ages of A,B and C be 27,The how old is B?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question25"
+            android:layout_below="@+id/question25">
+
+            <RadioButton
+                android:id="@+id/radio251"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='7'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio252"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='8'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio253"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='6'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio254"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='10'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question26"
+            android:textSize="30dp"
+            android:text="7) A person's present age is two-fifth of the age of his mother. After 8 years, he will be
+        one half of the age of his mother. How old is the mother at present?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question26"
+            android:layout_below="@+id/question26">
+
+            <RadioButton
+                android:id="@+id/radio261"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='32 years'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio262"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='36 years'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio263"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='40 years'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio264"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='48 years'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question27"
+            android:textSize="30dp"
+            android:text="8) Q is as much younger than R as he is older than T. If the sum of
+        the ages of R and T is 50 years, what is definitely the difference
+        between R and Q's age?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question7"
+            android:layout_below="@+id/question7">
+
+            <RadioButton
+                android:id="@+id/radio271"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='1 year'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio272"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='2 years'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio273"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='25 years'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio274"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Data inadequate'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question28"
+            android:textSize="30dp"
+            android:text="9) The banker's gain on a bill due 1 year hence at 12% per annum is Rs. 6. The discount is:"/>
+        <RadioGroup
+            android:id="@+id/radioGroup28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question28"
+            android:layout_below="@+id/question28">
+
+            <RadioButton
+                android:id="@+id/radio281"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Rs. 72'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio282"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Rs. 36'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio283"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='54'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio284"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='50'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question29"
+            android:textSize="30dp"
+            android:text="10) The banker's gain of a certain sum due 2 years hence at 10% per annum
+        is Rs. 24. The present worth is:"/>
+        <RadioGroup
+            android:id="@+id/radioGroup29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question29"
+            android:layout_below="@+id/question29">
+
+            <RadioButton
+                android:id="@+id/radio291"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Rs. 480'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio292"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Rs. 520'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio293"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Rs. 600'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio294"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Rs. 960'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/radioGroup210"
+            android:layout_below="@+id/radioGroup210"
+            android:layout_marginTop="22dp"
+            android:text="Submit"
+
+            />
+        <EditText
+            android:id="@+id/score2"
+            android:singleLine="true"
+            android:textSize="30dp"
+            android:layout_below="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

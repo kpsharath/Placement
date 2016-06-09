@@ -1,0 +1,522 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:tools="http://schemas.android.com/tools"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:background="@drawable/bg1"
+                  android:orientation="vertical"
+                  android:paddingBottom="@dimen/activity_vertical_margin"
+                  android:paddingLeft="@dimen/activity_horizontal_margin"
+                  android:paddingRight="@dimen/activity_horizontal_margin"
+                  android:paddingTop="@dimen/activity_vertical_margin"
+        >
+		
+		<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question10"
+            android:textSize="30dp"
+            android:text="A man can row 6 kmph in still water. When the river is running at 1.2 kmph, 
+			it takes him 1 hour to row to a place and black. What is the total distance traveled by the man?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question10"
+            android:layout_below="@+id/question10">
+
+            <RadioButton
+                android:id="@+id/radio100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='6.24 km'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio101"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='6 km'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio102"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='5.76 km'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio103"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='5.66 km'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question11"
+            android:textSize="30dp"
+            android:text="Sum of first five prime numbers is:"/>
+        <RadioGroup
+            android:id="@+id/radioGroup11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question11"
+            android:layout_below="@+id/question11">
+
+            <RadioButton
+                android:id="@+id/radio110"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='11'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='26'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio112"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='28'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio113"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='15'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question12"
+            android:textSize="30dp"
+            android:text="In 10 years, A will be twice as old as B was 10 years ago. If A is now 9years older than B, the present age of B is:"/>
+        <RadioGroup
+            android:id="@+id/radioGroup12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question1"
+            android:layout_below="@+id/question1">
+
+            <RadioButton
+                android:id="@+id/radio120"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='19 years'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio121"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='29 years'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio122"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='39 years'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio123"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='49 years'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question13"
+            android:textSize="30dp"
+            android:text="The ratio 5:4 expressed as percentage equals: "/>
+        <RadioGroup
+            android:id="@+id/radioGroup13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question11"
+            android:layout_below="@+id/question11">
+
+            <RadioButton
+                android:id="@+id/radio130"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='12.5%'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio131"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='40%'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio132"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='80%'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio133"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='125%'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question14"
+            android:textSize="30dp"
+            android:text="Minimum number divisible by 3,6 and 9 is:"/>
+        <RadioGroup
+            android:id="@+id/radioGroup14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question14"
+            android:layout_below="@+id/question14">
+
+            <RadioButton
+                android:id="@+id/radio140"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='9'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio141"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='18'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio142"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='12'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio143"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='27'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question15"
+            android:textSize="30dp"
+            android:text=" Find the compound interest and the amount on Rs.8000 at 5% per annum for 3 years when C.I is reckoned yearly:"/>
+        <RadioGroup
+            android:id="@+id/radioGroup15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question15"
+            android:layout_below="@+id/question1">
+
+            <RadioButton
+                android:id="@+id/radio150"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=' Rs.1261'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio151"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Rs.1440'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio152"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Rs 1450'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio153"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Rs 1300'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question16"
+            android:textSize="30dp"
+            android:text="If Rs.7500 are borrowed at C.I at the rate of 4% per annum, then after 2 years the amount to be paid is?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question16"
+            android:layout_below="@+id/question16">
+
+            <RadioButton
+                android:id="@+id/radio160"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=' Rs.8082'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio161"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Rs.7800'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio162"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Rs.8100'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio163"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Rs.8112'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question17"
+            android:textSize="30dp"
+            android:text="A man can row his boat with the stream at 6 km/h and against the stream in 4 km/h. The man's rate is? "/>
+        <RadioGroup
+            android:id="@+id/radioGroup17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question17"
+            android:layout_below="@+id/question17">
+
+            <RadioButton
+                android:id="@+id/radio170"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='1 kmph'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio171"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='2 kmph'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio172"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='3 kmph'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio173"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='4 kmph'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question18"
+            android:textSize="30dp"
+            android:text="A man can row with a speed of 15 kmph in still water. If the stream flows at 5 kmph, 
+			then the speed in downstream is?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question18"
+            android:layout_below="@+id/question18">
+
+            <RadioButton
+                android:id="@+id/radio180"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='10 kmph'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio181"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='15 kmph'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio182"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='18 kmph'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio183"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='20 kmph'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+			<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question19"
+            android:textSize="30dp"
+            android:text="The sum of three consecutive integers is 102. Find the lowest of the three?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question19"
+            android:layout_below="@+id/question19">
+
+            <RadioButton
+                android:id="@+id/radio190"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='40'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio191"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='35'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio192"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='53'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio193"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='33'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+			
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="Submit"
+
+            />
+        <EditText
+            android:id="@+id/score1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+</ScrollView>

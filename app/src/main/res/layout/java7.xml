@@ -1,0 +1,522 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:background="@drawable/bg1"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        >
+		<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question70"
+            android:textSize="30dp"
+            android:text="1) Converting a primitive type data into its corresponding wrapper class object instance is called"/>
+        <RadioGroup
+            android:id="@+id/radioGroup70"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question70"
+            android:layout_below="@+id/question70">
+
+            <RadioButton
+                android:id="@+id/radio700"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='boxing.'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio701"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='wrapping'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio702"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='instantiation'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio703"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='autoboxing'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res70"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question71"
+            android:textSize="30dp"
+            android:text="2) Which cannot directly cause a thread to stop executing?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup71"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question71"
+            android:layout_below="@+id/question71">
+
+            <RadioButton
+                android:id="@+id/radio710"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Calling the SetPriority() method on a Thread object.'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio711"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Calling the wait() method on an object.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio712"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Calling notify() method on an object.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio713"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Calling read() method on an InputStream object.'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res71"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question72"
+            android:textSize="30dp"
+            android:text="
+            3) Which two of the following methods are defined in class Thread?
+
+\n1.start()\n
+2.wait()\n
+3.notify()\n
+4.run()\n"/>
+        <RadioGroup
+            android:id="@+id/radioGroup72"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question72"
+            android:layout_below="@+id/question72">
+
+            <RadioButton
+                android:id="@+id/radio720"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='1 and 4'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio721"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='2 and 3'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio722"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='2 and 3'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio723"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='2 and 3'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res72"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question73"
+            android:textSize="30dp"
+            android:text="4) Which of the following will directly stop the execution of a Thread?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup73"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question73"
+            android:layout_below="@+id/question73">
+
+            <RadioButton
+                android:id="@+id/radio730"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='wait()'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio731"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='notify()'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio732"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='notifyall()'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio733"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='exits synchronized code'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res73"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question74"
+            android:textSize="30dp"
+            android:text="5) Which method must be defined by a class implementing the java.lang.Runnable interface?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup74"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question74"
+            android:layout_below="@+id/question74">
+
+            <RadioButton
+                android:id="@+id/radio740"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='void run()'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio741"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='public void run()'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio742"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='public void start()'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio743"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='void run(int priority()'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res74"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+			
+		<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question75"
+            android:textSize="30dp"
+            android:text="6) Which method executes only once"/>
+        <RadioGroup
+            android:id="@+id/radioGroup75"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question75"
+            android:layout_below="@+id/question75">
+
+            <RadioButton
+                android:id="@+id/radio750"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='start() method.'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio751"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='init() method
+'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio752"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='stop() method.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio753"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='destroy() method'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res75"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+		<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question76"
+            android:textSize="30dp"
+            android:text="7) Object which can store group of other objects is called"/>
+        <RadioGroup
+            android:id="@+id/radioGroup76"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question76"
+            android:layout_below="@+id/question76">
+
+            <RadioButton
+                android:id="@+id/radio760"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Collection object.'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio761"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='java object'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio762"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='package'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio763"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='wrapper.'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res76"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+			
+		<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question77"
+            android:textSize="30dp"
+            android:text="8) Thread class is available in"/>
+        <RadioGroup
+            android:id="@+id/radioGroup77"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question77"
+            android:layout_below="@+id/question77">
+
+            <RadioButton
+                android:id="@+id/radio770"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='java.io package.'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio771"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='java.lang package'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio772"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='java.awt package.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio773"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='java.util package'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res77"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+			
+		<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question78"
+            android:textSize="30dp"
+            android:text="9) Minimum threads in a program are:"/>
+        <RadioGroup
+            android:id="@+id/radioGroup78"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question78"
+            android:layout_below="@+id/question78">
+
+            <RadioButton
+                android:id="@+id/radio780"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='one.'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio781"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='two.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio782"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='five.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio783"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='many.'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res78"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+			
+		<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question79"
+            android:textSize="30dp"
+            android:text="10) x=x+1 is equivalent to"/>
+        <RadioGroup
+            android:id="@+id/radioGroup79"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question79"
+            android:layout_below="@+id/question79">
+
+            <RadioButton
+                android:id="@+id/radio790"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='x++'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio791"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='x =x-1.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio792"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='++x.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio793"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='none.'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res79"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/radioGroup710"
+            android:layout_below="@+id/radioGroup710"
+            android:layout_marginTop="22dp"
+            android:text="Submit"
+
+            />
+        <EditText
+            android:id="@+id/score7"
+            android:singleLine="true"
+            android:textSize="30dp"
+            android:layout_below="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

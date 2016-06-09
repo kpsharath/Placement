@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Placement</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_activity2">MainActivity2Activity</string>
+    <string name="title_activity_navigation_drawer">navigation_drawer</string>
+    <string name="title">Title</string>
+    <string name="information">Information</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_aptitude">aptitude</string>
+    <string name="java_question92">class Test
+{
+    public static void main(String [] args)
+    {
+        int x=20;
+        String sup = (x less than 15) ? "small": (x less than 22)? "tiny" : "huge";
+        System.out.println(sup);
+    }
+}</string>
+</resources>

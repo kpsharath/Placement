@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/bg3"
+                  android:orientation="vertical">
+        <TextView
+            android:id="@+id/news_feed_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Failing to prepare is preparing to fail"
+            android:layout_centerVertical="true"
+            android:textColor="#222"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/news_feed_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="\t Preparation for an interview is not just from the technical front, it is far more than that.Here are a few tips when it comes to preparation in general.
+
+\n 1. Know how to dress. If you’re not familiar with the company culture, visit their website or their offices during work hours to see how staff dress. A warning, however: Even if they wear business casual, you should err on the conservative side during the interview – for men that means a sports jacket and tie; for women, that would mean a nice pantsuit or dress. The exception to that would be if you’re in a creative field and the employees show up in jeans and T-shirts. Then, you would dress business casual. The key is to look professional – you’re not on staff yet.
+
+\n 2. Do extensive research about the company. Know what they’re about. Nothing’s worse for a hiring manager than to interview someone who hasn’t a clue what their company produces.
+
+\n 3. Compose a list of questions about the company that indicate your interest in what is produced and how things work.
+
+\n 4. Prepare a list of answers to the most frequently asked interview questions. For example: Where do you see yourself five years from now?
+
+\n 5. Practice, practice, practice. Make certain your voice and body language don’t give away your anxiety.
+
+\n 6. Know how long it will take to get to your interview so you arrive on time."
+            android:textColor="#222"
+            android:textSize="15dp"
+            android:padding="15dp"
+            />
+    </LinearLayout>
+
+
+
+</ScrollView>

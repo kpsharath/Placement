@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/bg3"
+                  android:orientation="vertical">
+        <TextView
+            android:id="@+id/news_feed_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Art of building a good resume"
+            android:layout_centerVertical="true"
+            android:textColor="#222"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/news_feed_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="\t Resume is one of the most important things when you are up against an interview.To write an effective resume, you have to learn how to write powerful but subtle advertising copy. Not only that, but you must sell a product in which you have a large personal investment: you. What’s worse, given the fact that most of us do not think in a marketing-oriented way naturally, you are probably not looking forward to selling anything, let alone yourself. But if you want to increase your job hunting effectiveness as much as possible, you would be wise to learn to write a spectacular resume.
+
+\n You do not need to hard sell or make any claims that are not absolutely true. You do need to get over your modesty and unwillingness to toot your own horn. People more often buy the best advertised product than the best product. That is good news if you are willing to learn to create an excellent resume. With a little extra effort, you will usually get a better response from prospective employers than people with better credentials."
+            android:textColor="#222"
+            android:textSize="15dp"
+            android:padding="15dp"
+            />
+    </LinearLayout>
+
+</ScrollView>

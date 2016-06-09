@@ -1,0 +1,553 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        >
+		 <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question100"
+            android:textSize="30dp"
+            android:text="A class member declared protected becomes member of subclass of which type"/>
+        <RadioGroup
+            android:id="@+id/radioGroup100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question101"
+            android:layout_below="@+id/question81">
+
+            <RadioButton
+                android:id="@+id/radio1000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='public member.'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='private member.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='static member.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1003"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='none of the above.'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question101"
+            android:textSize="30dp"
+            android:text="Which is true about an anonymous inner class?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup101"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question101"
+            android:layout_below="@+id/question101">
+
+            <RadioButton
+                android:id="@+id/radio1010"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='It can extend exactly one class and implement exactly one interface.'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1011"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='It can extend exactly one class and can implement multiple interfaces.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1012"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='It can extend exactly one class or implement exactly one interface.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1013"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='It can implement multiple interfaces regardless of whether it also extends a class.'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res101"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question102"
+            android:textSize="15dp"
+            android:text="class Boo\n
+{\n
+    Boo(String s) { }\n
+    Boo() { }\n
+}\n
+class Bar extends Boo\n
+{\n
+    Bar() { }\n
+    Bar(String s) {super(s);}\n
+    void zoo()\n
+    {\n
+    // insert code here\n
+    }\n
+}\n
+which one create an anonymous inner class from within class Bar?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup102"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question102"
+            android:layout_below="@+id/question102">
+
+            <RadioButton
+                android:id="@+id/radio1020"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Boo f = new Boo(24) { };'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1021"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Boo f = new Bar() { };'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1022"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Bar f = new Boo(String s) { };'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1023"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Boo f = new Boo.Bar(String s) { };'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res102"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question103"
+            android:textSize="30dp"
+            android:text="Which is true about a method-local inner class?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup103"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question103"
+            android:layout_below="@+id/question103">
+
+            <RadioButton
+                android:id="@+id/radio1030"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='It must be marked final.'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1031"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='It can be marked abstract.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1032"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='It can be marked public.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1033"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='It can be marked static.'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res103"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question104"
+            android:textSize="30dp"
+            android:text="Which constructs an anonymous inner class instance?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup104"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question104"
+            android:layout_below="@+id/question104">
+
+            <RadioButton
+                android:id="@+id/radio1040"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Runnable r = new Runnable() { };'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1041"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Runnable r = new Runnable(public void run() { });'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1042"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Runnable r = new Runnable { public void run(){}};'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1043"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='System.out.println(new Runnable() {public void run() { }});'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res104"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+		<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question105"
+            android:textSize="30dp"
+            android:text="Which of the following statements are incorrect?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup105"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question105"
+            android:layout_below="@+id/question105">
+
+            <RadioButton
+                android:id="@+id/radio1050"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='public members of class can be accessed by any code in the program..'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1051"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='private members of class can only be accessed by other members of the class.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1052"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='private members of class can be inherited by a sub class, and become protected members in sub class.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1053"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='protected members of a class can be inherited by a sub class, and become private members of the sub class.'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res105"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question106"
+            android:textSize="15dp"
+            android:text="What is the output of this program?\n
+
+    class A {\n
+        int i;\n
+        void display() {\n
+            System.out.println(i);\n
+        }\n
+    }    \n
+    class B extends A {\n
+        int j;\n
+        void display() {\n
+            System.out.println(j);\n
+        }\n
+    }    \n
+    class inheritance_demo {\n
+        public static void main(String args[])\n
+        {\n
+            B obj = new B();\n
+            obj.i=1;\n
+            obj.j=2;  \n
+            obj.display();\n
+        }\n
+   }"/>
+        <RadioGroup
+            android:id="@+id/radioGroup106"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question101"
+            android:layout_below="@+id/question81">
+
+            <RadioButton
+                android:id="@+id/radio1060"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='2'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1061"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='0'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1062"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='1'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1063"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='compilation error .'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res106"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question107"
+            android:textSize="30dp"
+            android:text="Which of these can be used to fully abstract a class from its implementation?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup107"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question107"
+            android:layout_below="@+id/question107">
+
+            <RadioButton
+                android:id="@+id/radio1070"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='objects'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1071"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='interface'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1072"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='packages'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1073"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='none of the above'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res107"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question108"
+            android:textSize="30dp"
+            android:text="Which of these access specifiers can be used for an interface?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup108"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question108"
+            android:layout_below="@+id/question108">
+
+            <RadioButton
+                android:id="@+id/radio1080"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='public'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1081"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='private'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1082"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='protected.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1083"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='none of the above.'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res108"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question109"
+            android:textSize="30dp"
+            android:text="Which of the following is incorrect statement about packages?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup109"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question109"
+            android:layout_below="@+id/question109">
+
+            <RadioButton
+                android:id="@+id/radio1090"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Interfaces specifies what class must do but not how it does.'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1091"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Interfaces are specified public if they are to be accessed by any code in the program.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1092"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=' All variables in interface are implicitly final and static.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1093"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='All variables are static and methods are public if interface is defined pubic.'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res109"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/radioGroup1010"
+            android:layout_below="@+id/radioGroup1010"
+            android:layout_marginTop="22dp"
+            android:text="Submit"
+
+            />
+        <EditText
+            android:id="@+id/score10"
+            android:singleLine="true"
+            android:textSize="30dp"
+            android:layout_below="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,523 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        >
+		<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question120"
+            android:textSize="30dp"
+            android:text="What is meant by multiple inheritance?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup120"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question120"
+            android:layout_below="@+id/question120">
+
+            <RadioButton
+                android:id="@+id/radio1200"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Deriving a base class from derived class'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1201"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Deriving a derived class from base class'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1202"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Deriving a derived class from more than one base class'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1203"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='None of the mentioned'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res120"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question121"
+            android:textSize="30dp"
+            android:text=" What does the following statement mean?
+    int (*fp)(char*)"/>
+        <RadioGroup
+            android:id="@+id/radioGroup121"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question121"
+            android:layout_below="@+id/question121">
+
+            <RadioButton
+                android:id="@+id/radio1210"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='pointer to a pointer'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1211"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='pointer to an array of chars'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1212"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='pointer to function taking a char* argument and returns an int'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1213"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='function taking a char* argument and returning a pointer to int'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res121"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question122"
+            android:textSize="30dp"
+            android:text="Choose the right option
+    string* x, y;"/>
+        <RadioGroup
+            android:id="@+id/radioGroup122"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question122"
+            android:layout_below="@+id/question122">
+
+            <RadioButton
+                android:id="@+id/radio1220"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='x is a pointer to a string, y is a string'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1221"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='y is a pointer to a string, x is a string'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1222"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='both x and y are pointer to string types'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1223"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='none of the mentioned'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res122"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question123"
+            android:textSize="30dp"
+            android:text="All members of class have which access to its members"/>
+        <RadioGroup
+            android:id="@+id/radioGroup123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question123"
+            android:layout_below="@+id/question123">
+
+            <RadioButton
+                android:id="@+id/radio1230"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='private'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1231"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='public'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1232"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='protected'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1233"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='depends'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res123"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question124"
+            android:textSize="30dp"
+            android:text="Constructor is"/>
+        <RadioGroup
+            android:id="@+id/radioGroup124"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question124"
+            android:layout_below="@+id/question124">
+
+            <RadioButton
+                android:id="@+id/radio1240"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='A class automatically called whenever a new object of this class is created'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1241"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='A class automatically called whenever a new object of this class is destroyed'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1242"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='A function automatically called whenever a new object of this class is created'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1243"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='A function automatically called whenever a new object of this class is destroyed'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res124"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+		  <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question125"
+            android:textSize="30dp"
+            android:text=" What is data hiding ?"
+/>
+        <RadioGroup
+            android:id="@+id/radioGroup125"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question125"
+            android:layout_below="@+id/question125">
+
+            <RadioButton
+                android:id="@+id/radio1250"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='It is related with showing internal object details'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1251"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='It is related with hiding internal object details'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1252"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='It is related with datatypes'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1253"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='None of above'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res125"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question126"
+            android:textSize="30dp"
+            android:text="What is class in c++ ?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup126"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question126"
+            android:layout_below="@+id/question126">
+
+            <RadioButton
+                android:id="@+id/radio1260"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='When you define a class, you make debugging.'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1261"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='When you define a class, you make get more funtionality.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1262"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='When you define a class, you define the logic.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1263"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='When you define a class, you define a blueprint for a data type.'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res126"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question127"
+            android:textSize="30dp"
+            android:text="When you define a class, you make get more funtionality."/>
+        <RadioGroup
+            android:id="@+id/radioGroup127"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question127"
+            android:layout_below="@+id/question127">
+
+            <RadioButton
+                android:id="@+id/radio1270"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Object is part of syntax of a class.'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1271"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Object is datatype of a class.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1272"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Object is an instance of a class.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1273"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Object is function of a class.'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res127"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question128"
+            android:textSize="30dp"
+            android:text="What is purpose of abstract class ?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup128"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question128"
+            android:layout_below="@+id/question128">
+
+            <RadioButton
+                android:id="@+id/radio1280"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='to provide help with database connectivity.'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1281"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='to provide data input to other classes.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1282"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='to provide security to other classes.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1283"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='to provide an appropriate base class from which other classes can inherit.'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res128"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+			
+		<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question129"
+            android:textSize="30dp"
+            android:text=" Which class is used to design the base class?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup129"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question129"
+            android:layout_below="@+id/question129">
+
+            <RadioButton
+                android:id="@+id/radio1290"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='abstract class'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1291"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=' derived class'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1292"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='base class'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1293"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='None of the mentioned'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res129"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+			
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/radioGroup1210"
+            android:layout_below="@+id/radioGroup1210"
+            android:layout_marginTop="22dp"
+            android:text="Submit"
+
+            />
+        <EditText
+            android:id="@+id/score12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+</ScrollView>

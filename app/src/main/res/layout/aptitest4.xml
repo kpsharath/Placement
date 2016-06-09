@@ -1,0 +1,532 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:tools="http://schemas.android.com/tools"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:background="@drawable/bg1"
+                  android:orientation="vertical"
+                  android:paddingBottom="@dimen/activity_vertical_margin"
+                  android:paddingLeft="@dimen/activity_horizontal_margin"
+                  android:paddingRight="@dimen/activity_horizontal_margin"
+                  android:paddingTop="@dimen/activity_vertical_margin"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question40"
+            android:textSize="30dp"
+            android:text="1) A number that is divisible by 2,3 and 5 is:"/>
+        <RadioGroup
+            android:id="@+id/radioGroup40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <RadioButton
+                android:id="@+id/radio400"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='is divisible by 10'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio401"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='is divisible by 15'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio402"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='is divisible by 6'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio403"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='all of the above'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="16"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question41"
+            android:textSize="30dp"
+            android:text="2) Six bells commence tolling together and toll at intervals of 2, 4, 6, 8 10 and 12
+			seconds respectively. In 30 minutes, how many times do they toll together ?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question41"
+            android:layout_below="@+id/question41">
+
+            <RadioButton
+                android:id="@+id/radio410"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='4'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio411"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='10'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio412"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='28'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio413"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='15'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="16"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question42"
+            android:textSize="30dp"
+            android:text="3) Let N be the greatest number that will divide 1305, 4665 and 6905,
+			leaving the same remainder in each case. Then sum of the digits in N is:"/>
+        <RadioGroup
+            android:id="@+id/radioGroup42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question42"
+            android:layout_below="@+id/question42">
+
+            <RadioButton
+                android:id="@+id/radio420"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='4'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio421"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='5'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio422"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='6'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio423"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='8'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question43"
+            android:textSize="30dp"
+            android:text="4) The product of two numbers is 4107. If the H.C.F. of these numbers is 37, then the greater number is:"/>
+        <RadioGroup
+            android:id="@+id/radioGroup43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question43"
+            android:layout_below="@+id/question43">
+
+            <RadioButton
+                android:id="@+id/radio430"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='101'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio431"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='107'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio432"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='111'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio433"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='125%'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="185"
+            android:textSize="30dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question44"
+            android:textSize="30dp"
+            android:text="5) A can do a work in 15 days and B in 20 days. If they work on it together for 4 days,
+			then the fraction of the work that is left is :"/>
+        <RadioGroup
+            android:id="@+id/radioGroup44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question44"
+            android:layout_below="@+id/question44">
+
+            <RadioButton
+                android:id="@+id/radio440"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='1/4'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio441"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='1/10'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio442"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='7/15'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio443"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='8/15'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+       <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question45"
+            android:textSize="30dp"
+            android:text="6) A, B and C can do a piece of work in 20, 30 and 60 days respectively. In how many days can
+			A do the work if he is assisted by B and C on every third day?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question45"
+            android:layout_below="@+id/question45">
+
+            <RadioButton
+                android:id="@+id/radio450"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='12 days'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio451"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='15 days'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio452"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='16days'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio453"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='18 days'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question46"
+            android:textSize="30dp"
+            android:text="7) It was Sunday on Jan 1, 2006. What was the day of the week Jan 1, 2010?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question46"
+            android:layout_below="@+id/question46">
+
+            <RadioButton
+                android:id="@+id/radio460"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Sunday'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio461"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Saturday'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio462"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Friday'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio463"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Wednesday'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res46"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question47"
+            android:textSize="30dp"
+            android:text="8) The cost price of 20 articles is the same as the selling price of x articles. 
+			If the profit is 25%, then the value of x is:"/>
+        <RadioGroup
+            android:id="@+id/radioGroup47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question47"
+            android:layout_below="@+id/question47">
+
+            <RadioButton
+                android:id="@+id/radio470"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='15'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio471"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='16'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio472"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='18'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio473"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='25'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question48"
+            android:textSize="30dp"
+            android:text="9) A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question48"
+            android:layout_below="@+id/question48">
+
+            <RadioButton
+                android:id="@+id/radio480"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='120 metres'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio481"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='180 metres'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio482"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='324 metres'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio483"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='150 metres'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res48"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question49"
+            android:textSize="30dp"
+            android:text="10) Which one of the following is not a prime number?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup49"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question49"
+            android:layout_below="@+id/question49">
+
+            <RadioButton
+                android:id="@+id/radio490"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='31'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio491"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='61'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio492"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='71'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio493"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='91'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res49"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/radioGroup410"
+            android:layout_below="@+id/radioGroup410"
+            android:layout_marginTop="22dp"
+            android:text="Submit"
+
+            />
+        <EditText
+            android:id="@+id/score4"
+            android:singleLine="true"
+            android:textSize="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>

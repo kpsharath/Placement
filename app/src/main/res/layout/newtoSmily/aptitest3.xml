@@ -1,0 +1,539 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@drawable/bg1"
+    android:layout_height="fill_parent">
+    <!-- Here you put the rest of your current view-->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                  android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+                  android:paddingRight="@dimen/activity_horizontal_margin"
+                  android:paddingTop="@dimen/activity_vertical_margin"
+
+
+                  android:orientation="vertical"
+                  android:paddingBottom="@dimen/activity_vertical_margin"
+
+                  tools:context=".MainActivity">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question30"
+            android:textSize="30dp"
+            android:text="1) How many times do the hands of a clock coincide in a day?
+            "/>
+        <RadioGroup
+            android:id="@+id/radioGroup30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question30"
+            android:layout_below="@+id/question30">
+
+            <RadioButton
+                android:id="@+id/radio301"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='20'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio302"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='21'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio303"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='22'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio304"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='24'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question31"
+            android:textSize="30dp"
+            android:text="2) An accurate clock shows 8 o'clock in the morning. Through how may degrees will the hour
+hand rotate when the clock shows 2 o'clock in the afternoon??"/>
+        <RadioGroup
+            android:id="@+id/radioGroup31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question31"
+            android:layout_below="@+id/question31">
+
+            <RadioButton
+                android:id="@+id/radio311"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='144 degree'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio312"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='150 degree'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio313"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='168 degree'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio314"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='180 degree'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question32"
+            android:textSize="30dp"
+            android:text="3) The reflex angle between the hands of a clock at 10.25 is?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question32"
+            android:layout_below="@+id/question32">
+
+            <RadioButton
+                android:id="@+id/radio321"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='180 degree'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio322"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='192.5 degree'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio323"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='195 degree'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio324"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='197.5 degree'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question33"
+            android:textSize="30dp"
+            android:text="4) A clock is started at noon. By 10 minutes past 5, the hour hand has turned through"/>
+        <RadioGroup
+            android:id="@+id/radioGroup33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question33"
+            android:layout_below="@+id/question33">
+
+            <RadioButton
+                android:id="@+id/radio331"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='145 degree'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio332"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='150 degree'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio333"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='155 degree'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio334"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='160 degree'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question34"
+            android:textSize="30dp"
+            android:text="5) The angle between the minute hand and the hour hand of a clock when the time is 4.20, is:"/>
+        <RadioGroup
+            android:id="@+id/radioGroup34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question34"
+            android:layout_below="@+id/question34">
+
+            <RadioButton
+                android:id="@+id/radio341"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='0 degree'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio342"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='10  degree'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio343"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='5 degree'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio344"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='20 degree'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question35"
+            android:textSize="30dp"
+            android:text="6) At what angle the hands of a clock are inclined at 15 minutes past 5?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question35"
+            android:layout_below="@+id/question35">
+
+            <RadioButton
+                android:id="@+id/radio351"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='58.5 degree'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio352"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='64 degree'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio353"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='67.5 degree'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio354"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='72.5 degree'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question36"
+            android:textSize="30dp"
+            android:text="7) At 3.40, the hour hand and the minute hand of a clock form an angle of?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question36"
+            android:layout_below="@+id/question36">
+
+            <RadioButton
+                android:id="@+id/radio361"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='120 degree'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio362"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='125 degree'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio363"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='130 degree'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio364"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='135 degree'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question37"
+            android:textSize="30dp"
+            android:text="8) How many times are the hands of a clock at right angle in a day?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question37"
+            android:layout_below="@+id/question37">
+
+            <RadioButton
+                android:id="@+id/radio371"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='22'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio372"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='24'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio373"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='44'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio374"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='48'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question38"
+            android:textSize="30dp"
+            android:text="9) The angle between the minute hand and the hour hand of a clock when the time is 8.30, is?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question38"
+            android:layout_below="@+id/question38">
+
+            <RadioButton
+                android:id="@+id/radio381"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='80 degree'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio382"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='75 degree'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio383"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='60 degree'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio384"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='105 degree'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question39"
+            android:textSize="30dp"
+            android:text="10) How many times in a day, are the hands of a clock in straight line but opposite in direction?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question39"
+            android:layout_below="@+id/question39">
+
+            <RadioButton
+                android:id="@+id/radio391"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='20'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio392"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='22'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio393"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='24'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio394"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='48'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/radioGroup310"
+            android:layout_below="@+id/radioGroup310"
+            android:layout_marginTop="22dp"
+            android:text="Submit"
+
+            />
+        <EditText
+            android:id="@+id/score3"
+            android:singleLine="true"
+            android:textSize="30dp"
+            android:layout_below="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>

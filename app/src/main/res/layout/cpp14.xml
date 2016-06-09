@@ -1,0 +1,522 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:background="@drawable/bg1"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        >
+		<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question140"
+            android:textSize="30dp"
+            android:text="1) The data elements in structure are also known as what?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup140"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question141"
+            android:layout_below="@+id/question141">
+
+            <RadioButton
+                android:id="@+id/radio1400"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='objects'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1401"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='members'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1402"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='data'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1403"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='none of the above '
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res140"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question141"
+            android:textSize="30dp"
+            android:text="2) What is default visibility mode for members of classes in C++ ?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup141"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question141"
+            android:layout_below="@+id/question141">
+
+            <RadioButton
+                android:id="@+id/radio1410"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Private'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1411"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Public'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1412"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Protected'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1413"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Depends'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res141"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question142"
+            android:textSize="30dp"
+            android:text="3) Which is more memory efficient ?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup142"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question142"
+            android:layout_below="@+id/question142">
+
+            <RadioButton
+                android:id="@+id/radio1420"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='structure'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1421"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='depends on a programmer'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1422"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='union'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1423"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='both use same memory'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res142"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question143"
+            android:textSize="30dp"
+            android:text="4) How we can define member function outside the class ?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup143"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question143"
+            android:layout_below="@+id/question143">
+
+            <RadioButton
+                android:id="@+id/radio1430"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Using union'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1431"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Using structure'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1432"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Using pointers"
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1433"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Using scope resolution"
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res143"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question144"
+            android:textSize="30dp"
+            android:text="5) Which among following is correct way of declaring object of a class ?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup144"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question144"
+            android:layout_below="@+id/question144">
+
+            <RadioButton
+                android:id="@+id/radio1440"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Classname Objectname;'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1441"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Class Classname Objectname;'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1442"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Class Classname Object Objectname;'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1443"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='Classname Object Objectname;'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res144"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+		  <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question145"
+            android:textSize="30dp"
+            android:text="6) What is actual syntax of destructor in c++ ?"/>
+			
+        <RadioGroup
+            android:id="@+id/radioGroup145"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question145"
+            android:layout_below="@+id/question145">
+
+
+            <RadioButton
+                android:id="@+id/radio1450"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='!Classname( )'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1451"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='at Classname( )'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1452"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='$Classname( )'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1453"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='~Classname( )'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res145"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question146"
+            android:textSize="30dp"
+            android:text="7) A variable is defined within a block in a body of a function. Which of the following are true ?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup146"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question146"
+            android:layout_below="@+id/question146">
+
+            <RadioButton
+                android:id="@+id/radio1460"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='It is visible from the point of definition to the end of the program.'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1461"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='It is visible throughout the function.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1462"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='It is visible from the point of definition to the end of the block.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1463"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='It is visible throughout the block.'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res146"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question147"
+            android:textSize="30dp"
+            android:text="8) The major goal of inheritance in C++ is ?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup147"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question147"
+            android:layout_below="@+id/question147">
+
+            <RadioButton
+                android:id="@+id/radio1470"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='To facilitate the reusability of code.'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1471"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='To extend the capabilities of a class'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1472"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='To help modular programming.'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1473"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='To facilitate the conversion of data types'
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/res147"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question138"
+            android:textSize="30dp"
+            android:text="9) Which of the following keywords are used to control access to a class member ?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup148"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question148"
+            android:layout_below="@+id/question138">
+
+            <RadioButton
+                android:id="@+id/radio1480"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='switch'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1481"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='protected'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1482"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='goto'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1483"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='for.'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res148"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+		<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question149"
+            android:textSize="30dp"
+            android:text="10) What is the difference between unsigned int length() and unsigned int size()?"/>
+        <RadioGroup
+            android:id="@+id/radioGroup149"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/question149"
+            android:layout_below="@+id/question149">
+
+            <RadioButton
+                android:id="@+id/radio1490"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=' Returns a different value'
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radio1491"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='They are same'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1492"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='both a and b'
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/radio1493"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='none of the above mentioned'
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/res149"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+			
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/radioGroup1410"
+            android:layout_below="@+id/radioGroup1410"
+            android:layout_marginTop="22dp"
+            android:text="Submit"
+
+            />
+        <EditText
+            android:id="@+id/score14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+            android:ems="100"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,566 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+	<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question60"
+        android:textSize="30dp"
+        android:text="1) Why we use array as a parameter of main method"/>
+    <RadioGroup
+        android:id="@+id/radioGroup60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/question60"
+        android:layout_below="@+id/question60">
+
+        <RadioButton
+            android:id="@+id/radio600"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='it is syntax'
+            android:textSize="20dp"
+            />
+        <RadioButton
+            android:id="@+id/radio601"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='Can store multiple values'
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/radio602"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='Both of above'
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/radio603"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='none of the above'
+            android:textSize="20dp"/>
+    </RadioGroup>
+    <EditText
+        android:id="@+id/res60"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:inputType="text"
+        android:ems="100"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question61"
+        android:textSize="30dp"
+        android:text="2) Which is a reserved word in the Java programming language?"/>
+    <RadioGroup
+        android:id="@+id/radioGroup61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/question61"
+        android:layout_below="@+id/question61">
+
+        <RadioButton
+            android:id="@+id/radio610"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='method'
+            android:textSize="20dp"
+            />
+        <RadioButton
+            android:id="@+id/radio611"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='native'
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/radio612"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='subclass'
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/radio613"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='reference'
+            android:textSize="20dp"/>
+    </RadioGroup>
+    <EditText
+        android:id="@+id/res61"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:inputType="text"
+        android:ems="100"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question62"
+        android:textSize="15dp"
+        android:text="3) public class X\n
+{\n
+    public static void main(String [] args)\n
+    {\n
+        try\n
+        {\n
+            badMethod();\n
+            System.out.print(' A ');\n
+        }\n
+        catch (Exception ex)\n
+        {\n
+            System.out.print('B');\n
+        }\n
+        finally\n
+        {\n
+            System.out.print('C');\n
+        }\n
+        System.out.print('D'');\n
+    }\n
+    public static void badMethod()\n
+    {\n
+        throw new Error(); /* Line 22 */\n
+    }\n
+}"/>
+    <RadioGroup
+        android:id="@+id/radioGroup62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/question62"
+        android:layout_below="@+id/question62">
+
+        <RadioButton
+            android:id="@+id/radio620"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='ABCD'
+            android:textSize="20dp"
+            />
+        <RadioButton
+            android:id="@+id/radio621"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='Compilation fails.'
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/radio622"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='C is printed before exiting with an error message'
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/radio623"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='BC is printed before exiting with an error message'
+            android:textSize="20dp"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/res62"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:inputType="text"
+        android:ems="100"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question63"
+        android:textSize="30dp"
+        android:text="4) Which three are methods of the Object class?\n
+1.notify();\n
+2.notifyAll();\n
+3.isInterrupted();\n
+4.synchronized();\n
+5.interrupt();\n
+6.wait(long msecs);\n
+7.sleep(long msecs);\n
+8.yield();\n"/>
+    <RadioGroup
+        android:id="@+id/radioGroup63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/question63"
+        android:layout_below="@+id/question63">
+
+        <RadioButton
+            android:id="@+id/radio630"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='1, 2, 4'
+            android:textSize="20dp"
+            />
+        <RadioButton
+            android:id="@+id/radio631"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='2, 4, 5'
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/radio632"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='1, 2, 6'
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/radio633"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='2, 3, 4'
+            android:textSize="20dp"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/res63"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:inputType="text"
+        android:ems="100"
+        android:textSize="30dp"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question64"
+        android:textSize="30dp"
+        android:text="5) class X implements Runnable\n
+{\n
+    public static void main(String args[])\n
+    {\n
+        /* Missing code? */\n
+    }\n
+    public void run() {}\n
+}"/>
+    <RadioGroup
+        android:id="@+id/radioGroup64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/question64"
+        android:layout_below="@+id/question64">
+
+        <RadioButton
+            android:id="@+id/radio640"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='Thread t = new Thread(X);'
+            android:textSize="20dp"
+            />
+        <RadioButton
+            android:id="@+id/radio641"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='X run = new X(); Thread t = new Thread(run); t.start();'
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/radio642"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='Thread t = new Thread(X); t.start();'
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/radio643"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='Thread t = new Thread(); x.run();'
+            android:textSize="20dp"/>
+    </RadioGroup>
+    <EditText
+        android:id="@+id/res64"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:inputType="text"
+        android:ems="100"
+        android:textSize="30dp"/>
+	  
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question65"
+        android:textSize="30dp"
+        android:text="6) Suspend thread can be revived by using"/>
+    <RadioGroup
+        android:id="@+id/radioGroup65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/question65"
+        android:layout_below="@+id/question65">
+
+        <RadioButton
+            android:id="@+id/radio650"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='start() method'
+            android:textSize="20dp"
+            />
+        <RadioButton
+            android:id="@+id/radio651"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='Suspend() method'
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/radio652"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='resume() method'
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/radio653"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='yield() method'
+            android:textSize="20dp"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/res65"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:inputType="text"
+        android:ems="100"
+        android:textSize="30dp"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question66"
+        android:textSize="30dp"
+        android:text="7) Runnable is"/>
+    <RadioGroup
+        android:id="@+id/radioGroup66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/question66"
+        android:layout_below="@+id/question64">
+
+        <RadioButton
+            android:id="@+id/radio660"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='Class;'
+            android:textSize="20dp"
+            />
+        <RadioButton
+            android:id="@+id/radio661"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='Method'
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/radio662"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='Variable;'
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/radio663"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='Interface'
+            android:textSize="20dp"/>
+    </RadioGroup>
+    <EditText
+        android:id="@+id/res66"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:inputType="text"
+        android:ems="100"
+        android:textSize="30dp"/>
+	 <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question67"
+        android:textSize="30dp"
+        android:text="8) Which collection class associates values witch keys, and orders the keys according to their natural order
+"/>
+    <RadioGroup
+        android:id="@+id/radioGroup67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/question67"
+        android:layout_below="@+id/question67">
+
+        <RadioButton
+            android:id="@+id/radio670"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='java.util.HashSet'
+            android:textSize="20dp"
+            />
+        <RadioButton
+            android:id="@+id/radio671"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='java.util.LinkedList'
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/radio672"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='java.util.TreeMap'
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/radio673"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='java.util.SortedSet'
+            android:textSize="20dp"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/res67"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:inputType="text"
+        android:ems="100"
+        android:textSize="30dp"/>
+		
+		 <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question68"
+        android:textSize="30dp"
+        android:text="9) Which methods are utilized to control the access to an object in multi threaded programming
+"/>
+    <RadioGroup
+        android:id="@+id/radioGroup68"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/question68"
+        android:layout_below="@+id/question68">
+
+        <RadioButton
+            android:id="@+id/radio680"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='Asynchronized methods'
+            android:textSize="20dp"
+            />
+        <RadioButton
+            android:id="@+id/radio681"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='Synchronized methods'
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/radio682"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='Serialized methods'
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/radio683"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='None of above'
+            android:textSize="20dp"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/res68"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:inputType="text"
+        android:ems="100"
+        android:textSize="30dp"/>
+		
+		 <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question69"
+        android:textSize="30dp"
+        android:text="10) All raw data types should be read and uploaded to the database as an array of
+"/>
+    <RadioGroup
+        android:id="@+id/radioGroup69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/question69"
+        android:layout_below="@+id/question69">
+
+        <RadioButton
+            android:id="@+id/radio690"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='int'
+            android:textSize="20dp"
+            />
+        <RadioButton
+            android:id="@+id/radio691"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='boolean'
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/radio692"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='char'
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/radio693"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='bytes'
+            android:textSize="20dp"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/res69"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:inputType="text"
+        android:ems="100"
+        android:textSize="30dp"/>
+		
+		 
+
+
+    <EditText
+        android:id="@+id/score6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:inputType="text"
+        android:ems="100"
+        android:textSize="30dp"/>
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/radioGroup69"
+        android:layout_below="@+id/radioGroup69"
+        android:layout_marginTop="22dp"
+        android:text="Submit"
+
+        />
+</LinearLayout>
+</ScrollView>
